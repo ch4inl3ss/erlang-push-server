@@ -1,1 +1,9 @@
-# erlang-push-server
+erlang-push-server
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile
