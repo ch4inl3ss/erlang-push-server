@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module(erlang-push-server_app).
+-module(erlang_push_server_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    erlang-push-server_sup:start_link().
+    erlang_push_server_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

@@ -1,8 +1,8 @@
-{application, erlang-push-server,
+{application, erlang_push_server,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { erlang-push-server_app, []}},
+  {mod, { erlang_push_server_app, []}},
   {applications,
    [kernel,
     stdlib

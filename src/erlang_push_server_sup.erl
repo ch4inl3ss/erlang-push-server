@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc erlang-push-server top level supervisor.
+%% @doc erlang_push_server top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(erlang-push-server_sup).
+-module(erlang_push_server_sup).
 
 -behaviour(supervisor).
 
